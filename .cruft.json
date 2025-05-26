@@ -1,0 +1,43 @@
+{
+  "template": "https://github.com/scverse/cookiecutter-scverse",
+  "commit": "001285e45d2a513d51a7b6551a9af271cb7c456b",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "myeditdistance",
+      "package_name": "myeditdistance",
+      "project_description": "Calculates edit distance of two strings",
+      "author_full_name": "Andreas Gerardy",
+      "author_email": "andreas.gerardy@proton.me",
+      "github_user": "agerardy",
+      "github_repo": "myeditdistance",
+      "license": "Apache License Version 2.0",
+      "ide_integration": true,
+      "_copy_without_render": [
+        ".github/workflows/build.yaml",
+        ".github/workflows/test.yaml",
+        "docs/_templates/autosummary/**.rst"
+      ],
+      "_exclude_on_template_update": [
+        "CHANGELOG.md",
+        "LICENSE",
+        "README.md",
+        "docs/api.md",
+        "docs/index.md",
+        "docs/notebooks/example.ipynb",
+        "docs/references.bib",
+        "docs/references.md",
+        "src/**",
+        "tests/**"
+      ],
+      "_render_devdocs": false,
+      "_jinja2_env_vars": {
+        "lstrip_blocks": true,
+        "trim_blocks": true
+      },
+      "_template": "https://github.com/scverse/cookiecutter-scverse",
+      "_commit": "001285e45d2a513d51a7b6551a9af271cb7c456b"
+    }
+  },
+  "directory": null
+}
