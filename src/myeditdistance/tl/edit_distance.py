@@ -12,6 +12,9 @@ def edit_distance(string1: str, string2: str) -> int:
     -------
     An Integer representing the edit distance.
     """
+    if not isinstance(string1, str) or not isinstance(string2, str):
+        raise TypeError("string1 and string2 must be strings.")
+
     m = len(string1)
     n = len(string2)
     d = [[0] * (n + 1) for _ in range(m + 1)]  # create matrix for dynamic programming approach
